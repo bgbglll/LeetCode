@@ -1,0 +1,37 @@
+int divide(int dividend, int divisor) {
+        if(divisor == 0) return ~(1<<31);
+
+        long long res = 0;
+
+        long long divend = dividend;
+        long long divsor = divisor;
+
+        int sign = (dividend^divisor)>>31 != 0 ? -1 : 1;
+
+        divend = abs(divend);
+        divsor = abs(divsor);
+
+        // divend = 2^k * divsor + m;
+        // then m = 2^m * divsor  + r , 
+        // r = ....., repeat the process
+        while(divend >= divsor)
+        {
+            long long shiftCnt = 0;
+            long long tmp = divsor;
+            while((tmp << 1) <= divend)
+            {
+                tmp <<= 1;
+                shiftCnt++;
+            }
+
+            divend -= tmp;
+            // !!!!!!!!!!!! use long long to avoid overflow !!!!!!!!!!!
+            res += ((long long)1<<shiftCnt);
+        }
+
+        // !!!!!!!!!!!! use long long to avoid overflow !!!!!!!!!!!
+        if (res >= ((long long)1)<<31 && sign == 1)
+            return ~(1 << 31);
+
+        return res*sign;
+    }
