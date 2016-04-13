@@ -8,7 +8,7 @@ public:
             int left=i+1,right=nums.size()-1;
             if (nums[i] > 0)//第一位大于0时,3数之和不可能等于0.
                 break;
-            if (i != 0 && nums[i] == nums[i-1])//不符合时，避免重复比较。
+            if (i != 0 && nums[i] == nums[i-1])///不符合时，避免重复比较。
                 continue;
             while(left<right){
                 if (nums[right] < 0)
