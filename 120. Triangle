@@ -1,4 +1,4 @@
-class Solution {//dfs递归求解
+class Solution {///dfs递归求解
 public:
     void dfs(vector<vector<int>>& data, int m, int n, int &curMin,int sum){
 	if (m >= data.size()-1){
