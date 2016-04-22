@@ -1,0 +1,62 @@
+class Solution {//拓扑排序
+public:
+    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
+        if (prerequisites.empty()) return true;
+vector<int> inDegrees(numCourses, 0),record;
+for (int i = 0; i < prerequisites.size(); i++) inDegrees[prerequisites[i].first]++;
+for (int i = 0; i < numCourses; i++) if (!inDegrees[i]) record.push_back(i);
+int num,pos=prerequisites.size()-1;
+int count=0;
+for (int j = 0; j < record.size(); j++)
+{
+    num = record[j];
+    for (int k = 0; k <=pos; k++)
+    {
+        if (prerequisites[k].second == num)
+        {
+            inDegrees[prerequisites[k].first]--;
+            if (inDegrees[prerequisites[k].first] == 0)
+                record.push_back(prerequisites[k].first);
+            count++;
+            if (count == pos+1) return true;
+        }
+    }
+}
+return false;
+}
+};
+
+class Solution {//DFS
+public:
+    bool dfs(vector<vector<int> > &a,int cur,vector<int> &visited){
+        int n=a[cur].size();
+        //if(learned[cur]==true)return true;
+        visited[cur]=-1;
+        for(int j=0;j<n;j++){
+            if(visited[a[cur][j]]==0){
+                if(!dfs(a,a[cur][j],visited))return false;
+            }
+            else if(visited[a[cur][j]]==-1){
+                return false;
+            }
+        }
+        visited[cur]=1;
+        //learned[cur] = true;
+        return true;
+    }
+    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
+        if(numCourses==1)return true;
+        vector<vector<int> > a(numCourses);
+        vector<bool> learned(numCourses, false);
+        for(int i=0;i<prerequisites.size();i++){
+            a[prerequisites[i].second].push_back(prerequisites[i].first);
+        }
+        vector<int> visited(numCourses, 0);
+        for(int i=0;i<numCourses;i++){
+            if(visited[i]==0){
+                if(!dfs(a,i,visited))return false;
+            }
+        }
+        return true;
+    }
+};
