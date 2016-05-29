@@ -1,0 +1,31 @@
+class Solution {
+public:
+    struct compare{
+	bool operator ()(pair<int, int> mp1, pair<int, int> mp2){
+		return mp1.second < mp2.second;
+	}
+};
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+	vector<int> res;
+	int n = nums.size();
+	if (n == 0)return res;
+	unordered_map<int, int> mp;
+	for (int i = 0; i<n; i++){
+		mp[nums[i]]++;
+	}
+	multiset<pair<int, int>, compare> hp;
+	for (auto it = mp.begin(); it!=mp.end(); it++){
+			if (hp.size()<k){
+				hp.insert(make_pair(it->first,it->second));
+			}
+			else if (it->second>hp.begin()->second){
+				hp.erase(hp.begin());
+				hp.insert(make_pair(it->first, it->second));
+			}
+		}
+	for (auto it = hp.begin(); it != hp.end(); it++){
+		res.push_back(it->first);
+	}
+	return res;
+    }
+};
