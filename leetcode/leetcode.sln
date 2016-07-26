@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LUCKYSTRING", "LUCKYSTRING\LUCKYSTRING.vcxproj", "{5DB79695-EFF2-4DCE-B153-871F45F9230C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NumericKeypad", "NumericKeypad\NumericKeypad.vcxproj", "{7D7AFD21-2CD4-48FC-9FD6-3BB422349AFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{5DB79695-EFF2-4DCE-B153-871F45F9230C}.Debug|Win32.Build.0 = Debug|Win32
 		{5DB79695-EFF2-4DCE-B153-871F45F9230C}.Release|Win32.ActiveCfg = Release|Win32
 		{5DB79695-EFF2-4DCE-B153-871F45F9230C}.Release|Win32.Build.0 = Release|Win32
+		{7D7AFD21-2CD4-48FC-9FD6-3BB422349AFA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D7AFD21-2CD4-48FC-9FD6-3BB422349AFA}.Debug|Win32.Build.0 = Debug|Win32
+		{7D7AFD21-2CD4-48FC-9FD6-3BB422349AFA}.Release|Win32.ActiveCfg = Release|Win32
+		{7D7AFD21-2CD4-48FC-9FD6-3BB422349AFA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
