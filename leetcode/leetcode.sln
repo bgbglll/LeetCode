@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cards", "Cards\Cards.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CellsNotUnderAttack", "CellsNotUnderAttack\CellsNotUnderAttack.vcxproj", "{8169C430-F448-4BB5-B13C-3C5D7E2CCB42}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpringOuting", "SpringOuting\SpringOuting.vcxproj", "{02C46088-C3DE-4CCF-8376-03EB0A4739ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{8169C430-F448-4BB5-B13C-3C5D7E2CCB42}.Debug|Win32.Build.0 = Debug|Win32
 		{8169C430-F448-4BB5-B13C-3C5D7E2CCB42}.Release|Win32.ActiveCfg = Release|Win32
 		{8169C430-F448-4BB5-B13C-3C5D7E2CCB42}.Release|Win32.Build.0 = Release|Win32
+		{02C46088-C3DE-4CCF-8376-03EB0A4739ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02C46088-C3DE-4CCF-8376-03EB0A4739ED}.Debug|Win32.Build.0 = Debug|Win32
+		{02C46088-C3DE-4CCF-8376-03EB0A4739ED}.Release|Win32.ActiveCfg = Release|Win32
+		{02C46088-C3DE-4CCF-8376-03EB0A4739ED}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
