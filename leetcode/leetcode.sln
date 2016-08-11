@@ -27,6 +27,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A. Hulk", "A. Hulk\A. Hulk.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C. Thor", "C. Thor\C. Thor.vcxproj", "{2FAA949E-ACEF-46A0-8E75-583D07F153BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ransom Note", "Ransom Note\Ransom Note.vcxproj", "{A2E766DB-D7F5-4D22-BEAA-E06A745FD04C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wordPattern", "wordPattern\wordPattern.vcxproj", "{2A8AE148-8276-4CCA-98BA-DEA33172DE11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +85,14 @@ Global
 		{2FAA949E-ACEF-46A0-8E75-583D07F153BE}.Debug|Win32.Build.0 = Debug|Win32
 		{2FAA949E-ACEF-46A0-8E75-583D07F153BE}.Release|Win32.ActiveCfg = Release|Win32
 		{2FAA949E-ACEF-46A0-8E75-583D07F153BE}.Release|Win32.Build.0 = Release|Win32
+		{A2E766DB-D7F5-4D22-BEAA-E06A745FD04C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2E766DB-D7F5-4D22-BEAA-E06A745FD04C}.Debug|Win32.Build.0 = Debug|Win32
+		{A2E766DB-D7F5-4D22-BEAA-E06A745FD04C}.Release|Win32.ActiveCfg = Release|Win32
+		{A2E766DB-D7F5-4D22-BEAA-E06A745FD04C}.Release|Win32.Build.0 = Release|Win32
+		{2A8AE148-8276-4CCA-98BA-DEA33172DE11}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A8AE148-8276-4CCA-98BA-DEA33172DE11}.Debug|Win32.Build.0 = Debug|Win32
+		{2A8AE148-8276-4CCA-98BA-DEA33172DE11}.Release|Win32.ActiveCfg = Release|Win32
+		{2A8AE148-8276-4CCA-98BA-DEA33172DE11}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
