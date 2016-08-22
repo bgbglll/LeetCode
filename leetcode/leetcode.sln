@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "youdao2", "youdao2\youdao2.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "youdao3", "youdao3\youdao3.vcxproj", "{CFE89B3E-0BD0-48D8-AD99-5C07DE912249}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "371. Sum of Two Integers Without +", "371. Sum of Two Integers Without +\371. Sum of Two Integers Without +.vcxproj", "{334904F6-65DB-4086-9A51-4AEA4257641B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -117,6 +119,10 @@ Global
 		{CFE89B3E-0BD0-48D8-AD99-5C07DE912249}.Debug|Win32.Build.0 = Debug|Win32
 		{CFE89B3E-0BD0-48D8-AD99-5C07DE912249}.Release|Win32.ActiveCfg = Release|Win32
 		{CFE89B3E-0BD0-48D8-AD99-5C07DE912249}.Release|Win32.Build.0 = Release|Win32
+		{334904F6-65DB-4086-9A51-4AEA4257641B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{334904F6-65DB-4086-9A51-4AEA4257641B}.Debug|Win32.Build.0 = Debug|Win32
+		{334904F6-65DB-4086-9A51-4AEA4257641B}.Release|Win32.ActiveCfg = Release|Win32
+		{334904F6-65DB-4086-9A51-4AEA4257641B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
