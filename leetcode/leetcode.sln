@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "youdao3", "youdao3\youdao3.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "371. Sum of Two Integers Without +", "371. Sum of Two Integers Without +\371. Sum of Two Integers Without +.vcxproj", "{334904F6-65DB-4086-9A51-4AEA4257641B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "387. First Unique Character in a String", "387. First Unique Character in a String\387. First Unique Character in a String.vcxproj", "{16DAADBD-55CD-4E72-A107-C0D7071AEB32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -123,6 +125,10 @@ Global
 		{334904F6-65DB-4086-9A51-4AEA4257641B}.Debug|Win32.Build.0 = Debug|Win32
 		{334904F6-65DB-4086-9A51-4AEA4257641B}.Release|Win32.ActiveCfg = Release|Win32
 		{334904F6-65DB-4086-9A51-4AEA4257641B}.Release|Win32.Build.0 = Release|Win32
+		{16DAADBD-55CD-4E72-A107-C0D7071AEB32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{16DAADBD-55CD-4E72-A107-C0D7071AEB32}.Debug|Win32.Build.0 = Debug|Win32
+		{16DAADBD-55CD-4E72-A107-C0D7071AEB32}.Release|Win32.ActiveCfg = Release|Win32
+		{16DAADBD-55CD-4E72-A107-C0D7071AEB32}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
