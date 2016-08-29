@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "371. Sum of Two Integers Wi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "387. First Unique Character in a String", "387. First Unique Character in a String\387. First Unique Character in a String.vcxproj", "{16DAADBD-55CD-4E72-A107-C0D7071AEB32}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "338. Counting Bits", "338. Counting Bits\338. Counting Bits.vcxproj", "{A3B0A36B-B449-4495-A3D1-67AE1C0B7DA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -129,6 +131,10 @@ Global
 		{16DAADBD-55CD-4E72-A107-C0D7071AEB32}.Debug|Win32.Build.0 = Debug|Win32
 		{16DAADBD-55CD-4E72-A107-C0D7071AEB32}.Release|Win32.ActiveCfg = Release|Win32
 		{16DAADBD-55CD-4E72-A107-C0D7071AEB32}.Release|Win32.Build.0 = Release|Win32
+		{A3B0A36B-B449-4495-A3D1-67AE1C0B7DA8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3B0A36B-B449-4495-A3D1-67AE1C0B7DA8}.Debug|Win32.Build.0 = Debug|Win32
+		{A3B0A36B-B449-4495-A3D1-67AE1C0B7DA8}.Release|Win32.ActiveCfg = Release|Win32
+		{A3B0A36B-B449-4495-A3D1-67AE1C0B7DA8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
