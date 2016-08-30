@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "260. Single Number III", "2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "382. Linked List Random Node", "382. Linked List Random Node\382. Linked List Random Node.vcxproj", "{5449F202-B649-44A0-9D46-BD73C1FCF1D7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "300. Longest Increasing Subsequence", "300. Longest Increasing Subsequence\300. Longest Increasing Subsequence.vcxproj", "{B0A777B6-7A70-434A-8773-FBF0FDAD2297}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -147,6 +149,10 @@ Global
 		{5449F202-B649-44A0-9D46-BD73C1FCF1D7}.Debug|Win32.Build.0 = Debug|Win32
 		{5449F202-B649-44A0-9D46-BD73C1FCF1D7}.Release|Win32.ActiveCfg = Release|Win32
 		{5449F202-B649-44A0-9D46-BD73C1FCF1D7}.Release|Win32.Build.0 = Release|Win32
+		{B0A777B6-7A70-434A-8773-FBF0FDAD2297}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0A777B6-7A70-434A-8773-FBF0FDAD2297}.Debug|Win32.Build.0 = Debug|Win32
+		{B0A777B6-7A70-434A-8773-FBF0FDAD2297}.Release|Win32.ActiveCfg = Release|Win32
+		{B0A777B6-7A70-434A-8773-FBF0FDAD2297}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
