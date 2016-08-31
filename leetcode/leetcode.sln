@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "300. Longest Increasing Sub
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A. Bus to Udayland", "A. Bus to Udayland\A. Bus to Udayland.vcxproj", "{B278BEC4-49C4-4819-ABC8-4E7F0000C9D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "B. Chris and Magic Square", "B. Chris and Magic Square\B. Chris and Magic Square.vcxproj", "{5C0EE4BC-E2D2-4097-8423-816E97DDDB49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -159,6 +161,10 @@ Global
 		{B278BEC4-49C4-4819-ABC8-4E7F0000C9D1}.Debug|Win32.Build.0 = Debug|Win32
 		{B278BEC4-49C4-4819-ABC8-4E7F0000C9D1}.Release|Win32.ActiveCfg = Release|Win32
 		{B278BEC4-49C4-4819-ABC8-4E7F0000C9D1}.Release|Win32.Build.0 = Release|Win32
+		{5C0EE4BC-E2D2-4097-8423-816E97DDDB49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C0EE4BC-E2D2-4097-8423-816E97DDDB49}.Debug|Win32.Build.0 = Debug|Win32
+		{5C0EE4BC-E2D2-4097-8423-816E97DDDB49}.Release|Win32.ActiveCfg = Release|Win32
+		{5C0EE4BC-E2D2-4097-8423-816E97DDDB49}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
