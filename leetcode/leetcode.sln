@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "B. Chris and Magic Square",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "238. Product of Array Except Self", "238. Product of Array Except Self\238. Product of Array Except Self.vcxproj", "{B559CAA7-8292-48BA-AEF0-A007CB8DE6D3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35. Search Insert Position", "35. Search Insert Position\35. Search Insert Position.vcxproj", "{D066B2A3-771D-47C1-8CE0-1EBEB40DD183}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -171,6 +173,10 @@ Global
 		{B559CAA7-8292-48BA-AEF0-A007CB8DE6D3}.Debug|Win32.Build.0 = Debug|Win32
 		{B559CAA7-8292-48BA-AEF0-A007CB8DE6D3}.Release|Win32.ActiveCfg = Release|Win32
 		{B559CAA7-8292-48BA-AEF0-A007CB8DE6D3}.Release|Win32.Build.0 = Release|Win32
+		{D066B2A3-771D-47C1-8CE0-1EBEB40DD183}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D066B2A3-771D-47C1-8CE0-1EBEB40DD183}.Debug|Win32.Build.0 = Debug|Win32
+		{D066B2A3-771D-47C1-8CE0-1EBEB40DD183}.Release|Win32.ActiveCfg = Release|Win32
+		{D066B2A3-771D-47C1-8CE0-1EBEB40DD183}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
