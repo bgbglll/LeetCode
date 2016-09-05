@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35. Search Insert Position"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "24. Swap Nodes in Pairs", "24. Swap Nodes in Pairs\24. Swap Nodes in Pairs.vcxproj", "{33BC13A0-378C-4DA7-948B-20917CBEBE9E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27. Remove Element", "27. Remove Element\27. Remove Element.vcxproj", "{9E51E03C-B3B6-4B82-B018-97AD28AA0AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -183,6 +185,10 @@ Global
 		{33BC13A0-378C-4DA7-948B-20917CBEBE9E}.Debug|Win32.Build.0 = Debug|Win32
 		{33BC13A0-378C-4DA7-948B-20917CBEBE9E}.Release|Win32.ActiveCfg = Release|Win32
 		{33BC13A0-378C-4DA7-948B-20917CBEBE9E}.Release|Win32.Build.0 = Release|Win32
+		{9E51E03C-B3B6-4B82-B018-97AD28AA0AAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E51E03C-B3B6-4B82-B018-97AD28AA0AAA}.Debug|Win32.Build.0 = Debug|Win32
+		{9E51E03C-B3B6-4B82-B018-97AD28AA0AAA}.Release|Win32.ActiveCfg = Release|Win32
+		{9E51E03C-B3B6-4B82-B018-97AD28AA0AAA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
