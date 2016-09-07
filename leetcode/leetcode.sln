@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27. Remove Element", "27. R
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "208. Implement Trie (Prefix Tree)", "208. Implement Trie (Prefix Tree)\208. Implement Trie (Prefix Tree).vcxproj", "{944A4E51-B594-4EDE-B984-1C2A1D0E90FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "36. Valid Sudoku", "36. Valid Sudoku\36. Valid Sudoku.vcxproj", "{B893B1FD-02AA-4291-845D-5BFAE6A5E43F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -195,6 +197,10 @@ Global
 		{944A4E51-B594-4EDE-B984-1C2A1D0E90FD}.Debug|Win32.Build.0 = Debug|Win32
 		{944A4E51-B594-4EDE-B984-1C2A1D0E90FD}.Release|Win32.ActiveCfg = Release|Win32
 		{944A4E51-B594-4EDE-B984-1C2A1D0E90FD}.Release|Win32.Build.0 = Release|Win32
+		{B893B1FD-02AA-4291-845D-5BFAE6A5E43F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B893B1FD-02AA-4291-845D-5BFAE6A5E43F}.Debug|Win32.Build.0 = Debug|Win32
+		{B893B1FD-02AA-4291-845D-5BFAE6A5E43F}.Release|Win32.ActiveCfg = Release|Win32
+		{B893B1FD-02AA-4291-845D-5BFAE6A5E43F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
