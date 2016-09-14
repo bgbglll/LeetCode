@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "39. Combination Sum", "39. 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "40. Combination Sum II", "40. Combination Sum II\40. Combination Sum II.vcxproj", "{C1CEAD58-B91F-4FC0-A593-78EA74AF20CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "42. Trapping Rain Water", "42. Trapping Rain Water\42. Trapping Rain Water.vcxproj", "{28A9AEDC-028B-455D-8F6C-C44B27A3FE47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -225,6 +227,10 @@ Global
 		{C1CEAD58-B91F-4FC0-A593-78EA74AF20CA}.Debug|Win32.Build.0 = Debug|Win32
 		{C1CEAD58-B91F-4FC0-A593-78EA74AF20CA}.Release|Win32.ActiveCfg = Release|Win32
 		{C1CEAD58-B91F-4FC0-A593-78EA74AF20CA}.Release|Win32.Build.0 = Release|Win32
+		{28A9AEDC-028B-455D-8F6C-C44B27A3FE47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28A9AEDC-028B-455D-8F6C-C44B27A3FE47}.Debug|Win32.Build.0 = Debug|Win32
+		{28A9AEDC-028B-455D-8F6C-C44B27A3FE47}.Release|Win32.ActiveCfg = Release|Win32
+		{28A9AEDC-028B-455D-8F6C-C44B27A3FE47}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
