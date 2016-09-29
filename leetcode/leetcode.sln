@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47. Permutations II", "47. 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "79. Word Search", "79. Word Search\79. Word Search.vcxproj", "{DFE8A26B-2B99-4EBF-B08A-4AEDB40943B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "71. Simplify Path", "71. Simplify Path\71. Simplify Path.vcxproj", "{56D11F29-656C-40F2-8B15-B06AA4DE7B0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -249,6 +251,10 @@ Global
 		{DFE8A26B-2B99-4EBF-B08A-4AEDB40943B9}.Debug|Win32.Build.0 = Debug|Win32
 		{DFE8A26B-2B99-4EBF-B08A-4AEDB40943B9}.Release|Win32.ActiveCfg = Release|Win32
 		{DFE8A26B-2B99-4EBF-B08A-4AEDB40943B9}.Release|Win32.Build.0 = Release|Win32
+		{56D11F29-656C-40F2-8B15-B06AA4DE7B0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56D11F29-656C-40F2-8B15-B06AA4DE7B0B}.Debug|Win32.Build.0 = Debug|Win32
+		{56D11F29-656C-40F2-8B15-B06AA4DE7B0B}.Release|Win32.ActiveCfg = Release|Win32
+		{56D11F29-656C-40F2-8B15-B06AA4DE7B0B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
